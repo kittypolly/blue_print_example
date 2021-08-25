@@ -1,0 +1,11 @@
+__init__.py로 패키지를 만들 수 있다.
+패키지의 이름은 __init__.py 파일을 담고 있는 폴더의 이름으로 정해진다.
+
+from project를 하위폴더에서 작성하면 일반적으로는 작동하지 않지만 app이 구동된 후에는
+app파일이 있는 위치에서 파일을 찾기 때문에 from project가 작동한다.
+app의 위치를 움직여보면 알 수 있다.
+
+blue_print는 patient, vaccine 폴더 안에 view와 project.templates.template 부분에 들어간다.
+url_for 부분만 잘 수정해주면 된다.
+
+

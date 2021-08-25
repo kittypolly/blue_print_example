@@ -1,0 +1,29 @@
+줄표는 'ㅂ' + '한자키' 로 입력할 수 있다.
+
+├───structure.txt
+├───app.py
+├───project
+│   │   __init__.py
+│   │   models.py
+│   │
+│   ├───patient
+│   │   │ forms.py
+│   │   │ views.py
+│   │   │
+│   │   ├─templates
+│   │   │ └───patients
+│   │   │        list.html
+│   │   │        delete.html
+│   │   │        add_patient.html
+│   │   │
+│   ├───vaccine
+│   │   │ forms.py
+│   │   │ views.py
+│   │   │
+│   │   ├───templates
+│   │   │  └───vaccines
+│   │   │         add_vaccine.html
+│   │   │
+│   ├───templates
+│          home.html
+│          template.html
